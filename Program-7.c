@@ -5,12 +5,13 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-void main()
+int main()
 {	
  int fno,sno,*ptr1=&fno,*ptr2=&sno;
  printf(" Input two numbers:");
  scanf("%d%d", ptr1,ptr2);
 //write the code for testing the condition
+if(*ptr1 > *ptr2)
  {
   printf("%d is the maximum number",*ptr1);
  }
@@ -18,4 +19,5 @@ void main()
  {
   printf("%d is the maximum number",*ptr2);
  }
+ return 0;
 }
