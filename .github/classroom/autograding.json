@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": " Find the distance",
+      "setup": "cc Program-1.c",
+      "run": "./a.out",
+      "input": "23 34",
+      "output": "Sum of feet = 57",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Student Information",
+      "setup": "cc Program-2.c",
+      "run": "./a.out",
+      "input": "10 20 30",
+      "output": "10 20 30",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "To add two numbers",
+      "setup": "cc Program-3.c",
+      "run": "./a.out",
+      "input": "10 20",
+      "output": "30",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "To Find Average",
+      "setup": "cc Program-4.c",
+      "run": "./a.out",
+      "input": "10 20 30",
+      "output": "20.000000",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "To retrieve book details",
+      "setup": "cc Program-5.c",
+      "run": "./a.out",
+      "input": "Pro-c 200 20 ",
+      "output": "Pro-c 200 20 ",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Add two numbers using pointers",
+      "setup": "cc Program-6.c",
+      "run": "./a.out",
+      "input": "5 6",
+      "output": "Sum=11",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "To find the maximum number between two numbers using a pointer.",
+      "setup": "cc Program-7.c",
+      "run": "./a.out",
+      "input": "7 21",
+      "output": "21 is the maximum number",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "To compute the sum of all elements in an array using pointers",
+      "setup": "cc Program-8.c",
+      "run": "./a.out",
+      "input": "5 2 3 4 5 6",
+      "output": "Sum=20",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "To print the value of a variable using pointers",
+      "setup": "cc Program-9.c",
+      "run": "./a.out",
+      "input": "5",
+      "output": "value=5",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "To store n elements in an array and print the elements using pointer.",
+      "setup": "cc Program-10.c",
+      "run": "./a.out",
+      "input": "5 4 6 1 7 3",
+      "output": "4 6 1 7 3 ",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    }
+  ]
+}
