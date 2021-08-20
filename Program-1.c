@@ -16,6 +16,7 @@ int main()
     sum.feet = dist1.feet + dist2.feet;
    
 
-    printf("Sum of feet = ",sum.feet);//Enter the missing code
+    printf("Sum of feet = %d",sum.feet);
     return 0;
 }
+
