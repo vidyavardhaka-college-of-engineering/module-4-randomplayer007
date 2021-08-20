@@ -6,8 +6,8 @@
 int main() 
 { 
     struct book 
-    { 
-       //declare name and price
+    {   char name[50];
+        int price;
         int pages; 
     }; 
     struct book b1;
@@ -16,4 +16,5 @@ int main()
     scanf("%s%d%d", &b1.name, &b1.price, &b1.pages);  
     printf("%s %d %d", b1.name, b1.price, b1.pages); 
      return 0;
-} 
+}
+
